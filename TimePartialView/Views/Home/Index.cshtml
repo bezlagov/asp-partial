@@ -1,0 +1,9 @@
+﻿@model DateTime
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1>Fist task Partial</h1>
+    @await Html.PartialAsync("_DateTimePartial", Model);
+</div>
